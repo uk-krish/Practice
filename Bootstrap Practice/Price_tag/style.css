@@ -1,0 +1,52 @@
+body{
+    background: #e5e5e5;
+}
+.card-body{
+    color: #828282;
+}
+.content li{
+    list-style: none;
+    line-height: 3em;
+}
+.content li::before{
+    position: absolute;
+    content: '';
+    margin-top:40px;
+    width: 90%;
+    right: 4%;
+    border: 1px solid #e7e7e7;
+}
+.card-title{
+    color: #3d4958;
+    font-weight: bold;
+}
+.card-price{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.card-price h1{
+    font-weight: bold;
+    font-size: 38px;
+}
+.card-body .content li b{
+    color: #000;
+}
+.btn{
+    background: #f44336;
+    color: #fff;
+}
+.card-body:hover{
+    background: rgb(236,79,77);
+background: linear-gradient(90deg, rgba(236,79,77,1) 0%, rgba(164,61,61,1) 100%);
+    color: #fff;
+}
+.card-body:hover>.content li b,.card-body:hover>.card-title{
+    background:transparent;
+    color: #fff;
+}
+.btn:hover{
+    background: #ffff;
+    color: #000;
+}

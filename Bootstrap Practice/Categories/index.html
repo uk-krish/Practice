@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      table{
+        border: 1px solid #000;
+      }
+      .btn1{
+        margin-bottom: 25px;
+        float: right;
+      }
+     
+      .btn:nth-child(1){
+        background: #5ac5ca;
+      }
+      .btn{
+        margin-left: 15px;
+        color: #fff;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .btn i{
+        margin:5px;
+      }
+      .btn3{
+        background: #cb5a59;
+        color: #fff;
+      }
+    </style>
+</head>
+<body>
+   <div class="container position-absolute top-50 start-50 translate-middle">
+    <div class="add">
+      <button type="button " class="btn btn1 btn-primary">
+        <i class="fa-solid fa-plus"></i> Add new categories</button>
+    </div>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th scope="col">Id</th>
+          <th scope="col">Title</th>
+          <th scope="col">Parent ID</th>
+          <th scope="col">Action</th>
+        </tr>
+      </thead>
+      <tbody>
+          
+        <tr>
+          <th scope="row">1</th>
+          <td>News</td>
+          <td>News Cate</td>
+          <td>
+              <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i>Edit</button>
+              
+<button type="button" class="btn btn3">
+  <i class="fa-solid fa-x"></i>Del</button>
+          </td>
+         
+          
+        <tr>
+          <th scope="row">2</th>
+          <td>Products</td>
+          <td>Main Products</td>
+          <td>
+              <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i>Edit</button>
+              
+<button type="button" class="btn btn3">
+  <i class="fa-solid fa-x"></i>Del</button>
+          </td>
+         
+          
+        <tr>
+          <th scope="row">3</th>
+          <td>Blogs</td>
+          <td>Parent Blogs</td>
+          <td>
+              <button type="button" class="btn btn-info"><i class="fa-solid fa-pen-to-square"></i>Edit</button>
+              
+<button type="button" class="btn btn3">
+  <i class="fa-solid fa-x"></i>Del</button>
+          </td>
+         
+      </tbody>
+    </table>
+   </div>
+</body>
+</html>
