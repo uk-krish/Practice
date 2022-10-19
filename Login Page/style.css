@@ -1,0 +1,32 @@
+.btn-color{
+    background-color: #0e1c36;
+    color: #fff;
+    
+  }
+  
+  .profile-image-pic{
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+  }
+  .form-check{
+    margin-top: 35px;
+  }
+  
+  
+  .cardbody-color{
+    background-color: #ebf2fa;
+  }
+  .btn {
+    background: #0e1c36;
+    color: #fff;
+  }
+  .btn a{
+    color: #fff;
+  }
+  .btn:hover{
+  background: #150050;
+  }
+  a{
+    text-decoration: none;
+  }
